@@ -36,15 +36,23 @@ apt-get update;apt-get upgrade -y;apt-get dist-upgrade -y;apt-get install nano h
 Past in your vps this line
 
 For open the port: ufw allow 9919/tcp
+
 For unzip you daemon: unzip Desire.zip
+
 For give the permission at your daemon:
+
 chmod +x desire-cli
+
 chmod +x desire-tx
+
 chmod +x desired
 
 For move you daemon in the correct folder
+
 mv desire-cli usr/local/bin
+
 mv desire-tx usr/local/bin
+
 mv desired usr/local/bin
 
 Now you can start your daemon type in your vps:
@@ -54,19 +62,31 @@ desired
 Then press control+c. When the prompt come back type:
 
 cd .desirecore
+
 nano desire.conf (if you haven't use nano press 2)
 
 Paste in your editor this line:
+
 rpcuser=user
+
 rpcpassword=pass
+
 rpcallowip=127.0.0.1
+
 listen=1
+
 server=1
+
 daemon=1
+
 rpcport=9918
+
 staking=0
+
 externalip=IP:9919
+
 masternode=1
+
 masternodeprivkey=yourprivkey
 
 Replasce user and pass (don't need to remember it)
@@ -75,9 +95,11 @@ Replace yourprivkey (see Side wallet)
 For exit control+x, save and exit
 
 Now you can start the daemon in your vps:
+
 desired -daemon
 
 For check if the sync is going type
+
 desire-cli getblockcount
 
 If the sync don't start try to add a node (you can find it in your peer list in your wallet)
