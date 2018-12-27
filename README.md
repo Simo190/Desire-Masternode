@@ -103,6 +103,7 @@ For check if the sync is going type
 desire-cli getblockcount
 
 If the sync don't start try to add a node (you can find it in your peer list in your wallet)
+
 Type in your vps: desire-cli addnode IPaddress onetry
 
 # Side wallet
