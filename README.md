@@ -55,6 +55,10 @@ mv desire-tx usr/local/bin
 
 mv desired usr/local/bin
 
+For remove your file zip
+
+rm Desire.zip
+
 Now you can start your daemon type in your vps:
 
 desired
