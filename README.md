@@ -49,11 +49,11 @@ chmod +x desired
 
 For move you daemon in the correct folder
 
-mv desire-cli usr/local/bin
+mv desire-cli /usr/local/bin
 
-mv desire-tx usr/local/bin
+mv desire-tx /usr/local/bin
 
-mv desired usr/local/bin
+mv desired /usr/local/bin
 
 For remove your file zip
 
