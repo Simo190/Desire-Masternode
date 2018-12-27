@@ -48,7 +48,9 @@ mv desire-tx usr/local/bin
 mv desired usr/local/bin
 
 Now you can start your daemon type in your vps:
+
 desired
+
 Then press control+c. When the prompt come back type:
 
 cd .desirecore
@@ -100,7 +102,7 @@ Now we have to create the masternode private key to link the main wallet and the
 
 masternode genkey
 
-Copy this key somewhere. It will be referred as masternodeprivkey.
+Copy this key somewhere. It will be referred as yourprivkey.
 
 Next, you have to go to the data directory of your main wallet (in Linux it’s located at /home/user/.desirecore) or you can open it by wallet GUI by Tools - Open masternode configuration file. So type :
 
