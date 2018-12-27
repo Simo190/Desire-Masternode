@@ -139,5 +139,10 @@ Put your data correctly, save it and close. Restart your main wallet.
 
 Note that each line of the masternode.conf file corresponds to one masternode.
 
+You must wait the end of sync you can check with 
+
+desire-cli mnsync status
+
+When you read FINISHED the sync is ended 
 Then wait almost 15 confirmation for your collateral transaction, then you can start your vps with start alias right button.
 
